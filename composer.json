@@ -1,0 +1,19 @@
+{
+	"name": "mercurial-tech/kompressor",
+	"description": "Create or Extract .gz and .tar files",
+	"authors": [
+	    {
+	        "name": "Mario Velasquez",
+	        "email": "mario@mercurialtech.com"
+	    }
+	],
+	"require": {
+		"symfony/console": "~2.0",
+		"symfony/process": "^3.2"
+	},
+	"autoload": {
+		"psr-4": {
+		    "Mev\\": "src/"
+		}
+	}
+}

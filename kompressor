@@ -1,0 +1,14 @@
+#! /usr/bin/env php
+
+<?php
+
+use Mev\KompressFileCommand;
+use Symfony\Component\Console\Application;
+
+require 'vendor/autoload.php';
+
+$app = new Application('Tar GZ Compressor', '1.o');
+
+$app->add(new KompressFileCommand());
+
+$app->run();
